@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="651.0" prefWidth="906.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="controller.Controllerw1">
+  <children>
+    <AnchorPane layoutX="0.0" layoutY="0.0" prefHeight="651.0" prefWidth="163.0">
+      <children>
+        <TableView fx:id="tabview1" prefHeight="581.0" prefWidth="164.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+          <columns>
+            <TableColumn maxWidth="5000.0" minWidth="162.0" prefWidth="162.0" resizable="false" text="Hostname" fx:id="tabcolum1" />
+          </columns>
+        </TableView>
+      </children>
+    </AnchorPane>
+    <TextArea id="TexrArea1" fx:id="idHostname" disable="false" layoutX="308.0" layoutY="51.0" prefHeight="25.0" prefWidth="263.0" text="ertertertert" visible="true" wrapText="true" />
+    <TextArea id="TexrArea1" fx:id="idStatus" disable="false" layoutX="308.0" layoutY="94.0" prefHeight="25.0" prefWidth="263.0" text="ertertertert" visible="true" wrapText="true" />
+    <TextArea id="TexrArea1" fx:id="idIP" disable="false" layoutX="308.0" layoutY="139.0" prefHeight="72.0" prefWidth="131.0" text="ertertertert" visible="true" wrapText="true" />
+    <TextArea id="TexrArea1" fx:id="idAccountLogin" disable="false" layoutX="308.0" layoutY="233.0" prefHeight="25.0" prefWidth="131.0" text="ertertertert" visible="true" wrapText="true" />
+    <TextArea id="TexrArea1" fx:id="idVirt" disable="false" layoutX="308.0" layoutY="279.0" prefHeight="25.0" prefWidth="263.0" text="ertertertert" visible="true" wrapText="true" />
+    <TextArea id="TexrArea1" fx:id="idCPU" disable="false" layoutX="308.0" layoutY="324.0" prefHeight="25.0" prefWidth="263.0" text="ertertertert" visible="true" wrapText="true" />
+    <TextArea id="TexrArea1" fx:id="idRam" disable="false" layoutX="308.0" layoutY="366.0" prefHeight="25.0" prefWidth="263.0" text="ertertertert" visible="true" wrapText="true" />
+    <TextArea id="TexrArea1" fx:id="idHDD" disable="false" layoutX="308.0" layoutY="399.0" prefHeight="50.0" prefWidth="263.0" text="ertertertert" visible="true" wrapText="true" />
+    <TextArea id="TexrArea1" fx:id="idOS" disable="false" layoutX="308.0" layoutY="458.0" prefHeight="25.0" prefWidth="263.0" text="ertertertert" visible="true" wrapText="true" />
+    <TextArea id="TexrArea1" fx:id="idFullName" disable="false" layoutX="308.0" layoutY="505.0" prefHeight="25.0" prefWidth="263.0" text="ertertertert" visible="true" wrapText="true" />
+    <TextArea id="TexrArea1" fx:id="idIProot" disable="false" layoutX="308.0" layoutY="554.0" prefHeight="25.0" prefWidth="263.0" text="ertertertert" visible="true" wrapText="true" />
+    <TextArea id="TexrArea1" fx:id="idType" disable="false" layoutX="308.0" layoutY="599.0" prefHeight="25.0" prefWidth="263.0" text="ertertertert" visible="true" wrapText="true" />
+    <TextArea id="TexrArea1" fx:id="idMask" disable="false" layoutX="440.0" layoutY="139.0" prefHeight="72.0" prefWidth="131.0" text="ertertertert" visible="true" wrapText="true" />
+    <Label layoutX="171.0" layoutY="57.0" text="hostname DNS имя" />
+    <Label layoutX="171.0" layoutY="100.0" text="Статус" />
+    <Label layoutX="171.0" layoutY="168.0" text="IP" />
+    <Label layoutX="171.0" layoutY="239.0" text="Учетка" />
+    <Label layoutX="171.0" layoutY="285.0" text="Виртуальная среда" />
+    <Label layoutX="171.0" layoutY="330.0" text="CPU sockets/cores" />
+    <Label layoutX="171.0" layoutY="372.0" text="RAM, Gb" />
+    <Label layoutX="171.0" layoutY="417.0" text="HDD, Gb" />
+    <Label layoutX="171.0" layoutY="464.0" text="СПО" />
+    <Label layoutX="171.0" layoutY="511.0" text="Полное наименование" />
+    <Label layoutX="171.0" layoutY="560.0" text="IP-адрес управляющего" />
+    <Label layoutX="171.0" layoutY="605.0" text="Тип сервиса" />
+    <TextArea id="TexrArea1" fx:id="idAccountPass" disable="false" layoutX="440.0" layoutY="233.0" prefHeight="25.0" prefWidth="131.0" text="ertertertert" visible="true" wrapText="true" />
+    <TextArea id="TexrArea1" fx:id="idVmCpu" disable="false" layoutX="608.0" layoutY="325.0" prefHeight="25.0" prefWidth="263.0" text="ertertertert" visible="true" wrapText="true" />
+    <TextArea id="TexrArea1" fx:id="idVmRAM" disable="false" layoutX="608.0" layoutY="366.0" prefHeight="25.0" prefWidth="263.0" text="ertertertert" visible="true" wrapText="true" />
+    <TextArea id="TexrArea1" fx:id="idVmHDD" disable="false" layoutX="608.0" layoutY="399.0" prefHeight="50.0" prefWidth="263.0" text="ertertertert" visible="true" wrapText="true" />
+    <TextArea id="TexrArea1" fx:id="idVmIP" disable="false" layoutX="608.0" layoutY="139.0" prefHeight="72.0" prefWidth="131.0" text="ertertertert" visible="true" wrapText="true" />
+    <TextArea id="TexrArea1" fx:id="idVmHostname" disable="false" layoutX="608.0" layoutY="52.0" prefHeight="25.0" prefWidth="263.0" text="ertertertert" visible="true" wrapText="true" />
+    <TextArea id="TexrArea1" fx:id="idVmOS" disable="false" layoutX="608.0" layoutY="459.0" prefHeight="25.0" prefWidth="263.0" text="ertertertert" visible="true" wrapText="true" />
+  </children>
+</AnchorPane>

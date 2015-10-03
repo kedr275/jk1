@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<AnchorPane prefHeight="581.0" prefWidth="621.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="controller.Controllerw2">
+  <children>
+    <TableView fx:id="idTabView" prefHeight="581.0" prefWidth="500.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <columns>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="153.0" text="IP" fx:id="idtabIP" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="185.0" text="Login" fx:id="idtabLogin" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="157.0" text="Password" fx:id="idtabPassword" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="126.0" text="Hostname" fx:id="idtabHostname" />
+      </columns>
+    </TableView>
+  </children>
+</AnchorPane>
