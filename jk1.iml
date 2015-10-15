@@ -10,7 +10,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../New-modules/poi-bin-3.12-20150511/poi-3.12/poi-3.12-20150511.jar!/" />
+          <root url="jar://$MODULE_DIR$/jar-lib/poi-3.12/poi-3.12-20150511.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -19,7 +19,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../New-modules/poi-bin-3.12-20150511/poi-3.12/poi-examples-3.12-20150511.jar!/" />
+          <root url="jar://$MODULE_DIR$/jar-lib/poi-3.12/poi-examples-3.12-20150511.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -28,7 +28,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../New-modules/poi-bin-3.12-20150511/poi-3.12/poi-excelant-3.12-20150511.jar!/" />
+          <root url="jar://$MODULE_DIR$/jar-lib/poi-3.12/poi-excelant-3.12-20150511.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -37,7 +37,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../New-modules/poi-bin-3.12-20150511/poi-3.12/poi-ooxml-3.12-20150511.jar!/" />
+          <root url="jar://$MODULE_DIR$/jar-lib/poi-3.12/poi-ooxml-3.12-20150511.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -46,7 +46,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../New-modules/poi-bin-3.12-20150511/poi-3.12/poi-ooxml-schemas-3.12-20150511.jar!/" />
+          <root url="jar://$MODULE_DIR$/jar-lib/poi-3.12/poi-ooxml-schemas-3.12-20150511.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -55,7 +55,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../New-modules/poi-bin-3.12-20150511/poi-3.12/poi-scratchpad-3.12-20150511.jar!/" />
+          <root url="jar://$MODULE_DIR$/jar-lib/poi-3.12/poi-scratchpad-3.12-20150511.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -64,7 +64,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../New-modules/xmlbeans-2.6.0.jar/xmlbeans-2.6.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/jar-lib/dom4j-1.6.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -73,7 +73,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../New-modules/dom4j-1.6.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/jar-lib/vijava55b20130927.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -82,7 +82,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../New-modules/vijava55b20130927.jar!/" />
+          <root url="jar://$MODULE_DIR$/jar-lib/xmlbeans-2.6.0.jar/xmlbeans-2.6.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

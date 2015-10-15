@@ -18,10 +18,10 @@
     <Label layoutX="17.0" layoutY="171.0" prefHeight="20.0" prefWidth="330.0" text="Путь до файлика - выгрузка с bi" />
     <Label layoutX="35.0" layoutY="44.0" prefHeight="20.0" prefWidth="97.0" text="Login" />
     <Label layoutX="35.0" layoutY="80.0" prefHeight="20.0" prefWidth="97.0" text="Password" />
-    <PasswordField layoutX="102.0" layoutY="80.0" prefWidth="250.0" />
+    <PasswordField fx:id="idtxtpasswd" layoutX="102.0" layoutY="80.0" prefWidth="250.0" />
     <Button id="bnfindfile" layoutX="421.0" layoutY="244.0" mnemonicParsing="false" text="Close" />
-    <Button id="bnfindfile2" fx:id="bnfindfile1" layoutX="436.0" layoutY="145.0" mnemonicParsing="false" onAction="#bnfindfile1act" prefWidth="33.0" text="..." />
-    <Button fx:id="bnfindfile2" layoutX="436.0" layoutY="192.0" mnemonicParsing="false" onAction="#bnfindfile2act" prefWidth="33.0" text="..." />
-    <Button fx:id="bntok" layoutX="370.0" layoutY="244.0" mnemonicParsing="false" onAction="#bntokact" text="OK" />
+    <!--<Button id="bnfindfile2" fx:id="bnfindfile1" layoutX="436.0" layoutY="145.0" mnemonicParsing="false" onAction="#bnfindfile1act" prefWidth="33.0" text="..." />-->
+    <!--<Button fx:id="bnfindfile2" layoutX="436.0" layoutY="192.0" mnemonicParsing="false" onAction="#bnfindfile2act" prefWidth="33.0" text="..." />-->
+    <!--<Button fx:id="bntok" layoutX="370.0" layoutY="244.0" mnemonicParsing="false" onAction="#bntokact" text="OK" />-->
   </children>
 </AnchorPane>
