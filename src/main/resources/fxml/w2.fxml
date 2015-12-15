@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<AnchorPane prefHeight="590.0" prefWidth="790.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Controller.Controller_w2">
+  <children>
+    <TableView id="TabView1" fx:id="TableView1" layoutX="14.0" layoutY="14.0" prefHeight="548.0" prefWidth="152.0">
+      <columns>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="151.0" text="Hostname" fx:id="TableColumn1" />
+      </columns>
+    </TableView>
+    <Label layoutX="172.0" layoutY="35.0" text="Hostname DNS имя" />
+    <Label layoutX="171.0" layoutY="70.0" text="Статус" />
+    <Label layoutX="170.0" layoutY="132.0" text="IP" />
+    <Label layoutX="170.0" layoutY="258.0" text="Виртуальная среда" />
+    <Label layoutX="170.0" layoutY="291.0" text="CPU sockets/cores" />
+    <Label layoutX="172.0" layoutY="321.0" text="RAM, Gb" />
+    <Label layoutX="171.0" layoutY="372.0" text="HDD, Gb" />
+    <Label layoutX="171.0" layoutY="445.0" text="СПО" />
+    <Label layoutX="170.0" layoutY="475.0" text="Полное наименование" />
+    <Label layoutX="170.0" layoutY="509.0" text="IP-адрес управляющего" />
+    <Label layoutX="170.0" layoutY="543.0" text="Тип сервиса" />
+    <Label layoutX="170.0" layoutY="195.0" text="Login" />
+    <Label layoutX="171.0" layoutY="226.0" text="Password" />
+    <Label layoutX="359.0" layoutY="11.0" prefWidth="18.0" text="BI" />
+    <Label layoutX="515.0" layoutY="11.0" text="vCenter" />
+    <Label layoutX="693.0" layoutY="11.0" text="Сет" />
+    <TextField fx:id="idHostname" layoutX="292.0" layoutY="32.0" prefWidth="152.0" text="1" />
+    <TextField fx:id="idVmHostname" layoutX="458.0" layoutY="32.0" prefWidth="152.0" text="1" />
+    <TextField fx:id="idSetHostname" layoutX="626.0" layoutY="32.0" prefWidth="152.0" text="1" />
+    <TextField fx:id="idCPU" layoutX="291.0" layoutY="288.0" prefWidth="152.0" text="1" />
+    <TextField fx:id="idVmCpu" layoutX="457.0" layoutY="288.0" prefWidth="152.0" text="" />
+    <TextField fx:id="idSetCpu" layoutX="625.0" layoutY="288.0" prefWidth="152.0" text="1" />
+    <TextField fx:id="idRam" layoutX="292.0" layoutY="318.0" prefWidth="152.0" text="1" />
+    <TextField fx:id="idVmRAM" layoutX="458.0" layoutY="318.0" prefWidth="152.0" text="1" />
+    <TextField fx:id="idSetRam" layoutX="626.0" layoutY="318.0" prefWidth="152.0" text="1" />
+    <TextField fx:id="idStatus" layoutX="292.0" layoutY="67.0" prefWidth="152.0" text="1" />
+    <TextArea fx:id="idIP" layoutX="292.0" layoutY="98.0" prefHeight="75.0" prefWidth="152.0" text="1" />
+    <TextArea fx:id="idVmIP" layoutX="458.0" layoutY="98.0" prefHeight="75.0" prefWidth="152.0" text="1" />
+    <TextArea fx:id="idSetIP" layoutX="626.0" layoutY="98.0" prefHeight="75.0" prefWidth="152.0" text="1" />
+    <TextField fx:id="idAccountLogin" layoutX="292.0" layoutY="192.0" prefWidth="152.0" text="1" />
+    <TextField fx:id="idAccountPass" layoutX="292.0" layoutY="223.0" prefWidth="152.0" text="1" />
+    <TextField fx:id="idVirt" layoutX="292.0" layoutY="255.0" prefWidth="152.0" text="1" />
+    <TextArea fx:id="idHDD" layoutX="292.0" layoutY="348.0" prefHeight="75.0" prefWidth="152.0" text="1" />
+    <TextArea fx:id="idVmHDD" layoutX="458.0" layoutY="348.0" prefHeight="75.0" prefWidth="152.0" text="1" />
+    <TextArea fx:id="idSetHDD" layoutX="626.0" layoutY="349.0" prefHeight="75.0" prefWidth="152.0" text="1" />
+    <TextField fx:id="idOS" layoutX="292.0" layoutY="435.0" prefWidth="152.0" text="1" />
+    <TextField fx:id="idVmOS" layoutX="458.0" layoutY="435.0" prefWidth="152.0" text="1" />
+    <TextField fx:id="idSetOS" layoutX="626.0" layoutY="435.0" prefWidth="152.0" text="1" />
+    <TextField fx:id="idFullName" layoutX="292.0" layoutY="475.0" prefWidth="152.0" text="1" />
+    <TextField fx:id="idIProot" layoutX="292.0" layoutY="506.0" prefWidth="152.0" text="1" />
+    <TextField fx:id="idType" layoutX="290.0" layoutY="540.0" prefWidth="152.0" text="1" />
+    <Button id="btn" fx:id="bnGO" layoutX="502.0" layoutY="526.0" mnemonicParsing="false" onAction="#bnGOAct" prefHeight="37.0" prefWidth="122.0" text="GO" />
+  </children>
+</AnchorPane>
